@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact - JMCORP! Studios</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="assets/css/jmcorpcontact.css">
+      <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Lato&display=swap" rel="stylesheet">
+      <link href="https://fonts.cdnfonts.com/css/airborne" rel="stylesheet">
+    </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com">Home</a></li>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com/newswire">Newswire</a></li>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com/download">Downloads</a></li>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com/videos">Videos</a></li>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com/about">About</a></li>
+        <li><a class="sidebarweblinks" href="https://www.jmcorpstudios.com/contact">Contact</a></li>
+      </ul>
+    </div>
+      <div class="toggleBtn layer-behind-header" id="toggleSidebar" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    <div class="content"></div>
+      </div>
+        <header>
+          <ul class="no-bullets">
+            <li><a href="https://www.jmcorpstudios.com"><img class="centered-image" src="assets/jmcorpstucomlogo.png"></a></li>
+          </ul>
+        </header>
+    <main>
+      <p class="altheader">Feedback</p>
+      <p class="altdesc">Any bugs, glitches, or want feedback? Let us know and share your feedback to help us improve our services.</p>
+      <form id="feedbackForm">
+        <label for="name"></label>
+        <input type="text" id="name" name="name" required placeholder="Name"><br>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" required placeholder="Email"><br>
+        <label for="subject"></label>
+        <input type="subject" id="subject" name="subject" required placeholder="Subject"><br>
+        <label for="description"></label>
+        <textarea id="description" name="description" rows="4" required placeholder="Enter your feedback here. Please don't add your personal or sensitive info."></textarea><br>
+        <p class="formnote">You will be sent to your email service once you hit submit here to make your final edits before your final submission.</p><br>
+        <button type="button" onclick="submitForm()">Submit Form</button>
+      </form>
+    </main>
+  <footer>
+    <img class="studio-logo-modified" src="assets/footer/studiologofooter2024.png">
+     <ul class="no-bullets weblinks">
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com">Home</a></li>
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com/newswire">Newswire</a></li>
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com/download">Downloads</a></li>
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com/videos">Videos</a></li>
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com/about">About</a></li>
+      <li><a class="weblinks" href="https://www.jmcorpstudios.com/contact">Contact</a></li>
+    </ul>
+  <ul class="social-media-icons">
+    <li><a href="https://www.facebook.com/profile.php?id=61552290920045&mibextid=ZbWKwL"><img src="assets/footer/face-logo.png"></a></li>
+    <li><a href="https://twitter.com/JavierM4023"><img src="assets/footer/tweet-logo.png"></a></li>
+    <li><a href="https://youtube.com/@jmcorpstudios"><img src="assets/footer/yt-logo.png"></a></li>
+    <li><a href="https://discord.gg/XEtRQQE8pH"><img src="assets/footer/disc-logo.png"></a></li>
+    <li><a href="https://www.instagram.com/javierm4023/"><img src="assets/footer/insta-logo.png"></a></li>
+  </ul>
+    <p class="copyright-note">&copy; 2017-2024 JMCORP! Studios. All Rights Reserved.</p>
+      </footer>
+    <script src="assets/java/sidebar.js"></script>
+    <script src="assets/java/contactform.js"></script>
+  </body>
+</html>
