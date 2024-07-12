@@ -162,6 +162,13 @@ a:hover {
 
   .bannerad {
     position: relative;
+    top: 0px;
+    width: 0%;
+    height: 0%;
+  }
+
+  .banneradmobile {
+    position: relative;
     top: 50px;
     width: 100%;
     height: auto;
@@ -463,6 +470,13 @@ a:hover {
     top: 50px;
     width: 100%;
     height: auto;
+  }
+  
+  .banneradmobile {
+    position: relative;
+    top: 0px;
+    width: 0%;
+    height: 0%;
   }
   
   .altheader {
